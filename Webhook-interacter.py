@@ -5,12 +5,11 @@ from os import system
 title = "Webook Interacter"
 system("title "+title)
 os.system('cls')
-webhook = "https://canary.discord.com/api/webhooks/907825829889855519/4pyYfPUtlCZK22ROPDahi2fmsGmMSJaEC6w_Jowzq4nNfahvbYIj3fIcUDmYuewnWCc4"
+webhook = "PUT YOUR WEBHOOK HERE"
+
 if webhook == "PUT YOUR WEBHOOK HERE":
     print("Please Change the webhook in Webhook-interactor.py")
     exit()
-
-
 
 hook = Webhook(webhook)
 print("[1] Embed Sender")
