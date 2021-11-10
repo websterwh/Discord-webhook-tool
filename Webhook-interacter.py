@@ -45,7 +45,7 @@ if choice == 2:
         if text.lower() == "exit":
             break
         if text == "":
-            text = "᲼"
+            text = "‍"
         hook.send(text)
         print(f"> {text}" )
 
